@@ -1,13 +1,9 @@
 #include<stdio.h>
 int main()
 {
-	int a,b,c;
-	printf("Enter the two values");
-	scanf("%d %d",&a,&b);
-    c=a;
-    a=b;
-    b=c;
-    printf("The numbers is %d",a);
-    printf("The number is %d",b);
+	float x,a;
+	printf("Enter two numbers");
+	scanf("%f %f",&x,&a);
+	printf("The swapped numbers are %f %f",a,x);
 	return 0;
 }
