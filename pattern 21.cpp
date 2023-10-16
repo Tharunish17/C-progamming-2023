@@ -2,7 +2,8 @@
 int main()
 {
 	int n,i,j,a,b,k;
-	k=3;
+	printf("Enter the value of the starting number");
+	scanf("%d",&k);
 	printf("Enter the value of n");
 	scanf("%d",&n);
 	for(i=0;i<n;i++,k++){
