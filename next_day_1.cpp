@@ -8,7 +8,7 @@ int main()
   scanf("%d",&d);
   scanf("%d",&m);
   scanf("%d",&y);
-  if (m>0 && m<=12)
+  if (m>0 && d>0 && m<=12)
 {
   if (y%4==0 && (y%100!=0 || y%400==0))
   {   
