@@ -13,14 +13,15 @@ int main()
     	scanf("%s",&b[i]);
 	 for(i=0;i<n;i++)
 	 {
-	 	if(a[i]==b[n-1-i])
+	 	if(a[i]==
+		 b[i])
 	 	size=1;
 	 	else 
 	 	 size=0;
 	 }
 	 if(size==1)
-	  printf("They are palindrome");
+	  printf("They are equal");
 	else
-	 printf("They are not palindrome");
+	 printf("They are not equal");
 	}
 	
