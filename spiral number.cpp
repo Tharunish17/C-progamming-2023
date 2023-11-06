@@ -8,7 +8,7 @@ int main()
 	k=1;
 	for(i=0;i<(n+1)/2;i++)
 	{
-		for(p=0;p<n-i;p++)
+		for(p=i;p<n-i;p++)
 		 a[i][p]=k++;
 		 for(b=i+1;b<n-i;b++)
 		 a[b][n-i-1]=k++;
